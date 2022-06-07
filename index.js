@@ -40,7 +40,7 @@ function calculatesFarePrice(start, destination)
     }else if(distance <= 2000 ){
         const remainingDistance = distance - 400;
             return remainingDistance * 0.02;
-    }else if(distance <= 2499)
+    }else if(distance <= 2500)
     {
         return 25;
     }
